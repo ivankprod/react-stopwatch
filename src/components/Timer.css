@@ -1,0 +1,22 @@
+.timer-wrapper {
+	display: flex;
+	flex-direction: column;
+
+	padding: 24px;
+
+	text-align: center;
+}
+
+.timer-time-wrapper {
+	margin-bottom: 4px;
+
+	font-size: 36px;
+}
+
+button {
+	font-size: 18px;
+}
+
+button + button {
+	margin-left: 8px;
+}
